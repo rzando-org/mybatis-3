@@ -23,7 +23,7 @@
     <groupId>org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
     <version>44</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.mybatis</groupId>
@@ -135,7 +135,7 @@
     <derby.version>10.17.1.0</derby.version>
     <log4j.version>2.23.1</log4j.version>
     <mockito.version>5.12.0</mockito.version>
-    <mssql-jdbc.version>12.6.2.jre11</mssql-jdbc.version>
+    <mssql-jdbc.version>12.6.5.jre8</mssql-jdbc.version>
     <testcontainers.version>1.19.8</testcontainers.version>
 
     <!-- Add slow test groups here and annotate classes similar to @Tag('groupName'). -->
@@ -466,7 +466,7 @@
       </activation>
       <properties>
         <derby.version>10.15.2.0</derby.version>
-        <mssql-jdbc.version>12.4.2.jre8</mssql-jdbc.version>
+        <mssql-jdbc.version>12.6.5.jre8</mssql-jdbc.version>
       </properties>
       <build>
         <pluginManagement>
